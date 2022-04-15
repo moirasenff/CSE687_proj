@@ -1,4 +1,1 @@
 *.opendb
-**/Debug/*
-**/.git/*
-**/.vs/*

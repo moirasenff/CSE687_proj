@@ -1,5 +1,2 @@
 ﻿  main.cpp
-C:\Users\Asus\Desktop\CSE 687\Project\CSE687_proj\Phase 1\repo\main.cpp(7,14): warning C4930: 'FileManager manager(void)': prototyped function not called (was a variable definition intended?)
-  fileManager.cpp
-  Generating Code...
   repo.vcxproj -> C:\Users\Asus\Desktop\CSE 687\Project\CSE687_proj\Phase 1\repo\Debug\repo.exe

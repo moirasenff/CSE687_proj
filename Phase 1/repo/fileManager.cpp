@@ -1,3 +1,3 @@
-#include "fileManager.hpp"
+#include "FileManager.hpp"
 
 class FileManager;

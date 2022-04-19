@@ -1,0 +1,33 @@
+all got github accounts
+
+
+std::ifstream, std::ostream
+file management class - open file, read words, close file, return vector<string> words.
+                        - create new file, write and append. don't remove punctuation
+Moira
+
+Map class - accept vector<string> words from file management class. populate the actual map(word, 1). map() constructor
+            remove punctuation
+            export() - write the map to the temp location using the file management class.
+            
+            map(words);
+            map.export(); -> the, 1
+                             and, 1
+                             the, 1
+                             write to the temp folder
+Shutong
+
+
+Reduce -    sort(inputfile) - transform the, 1    into: the, 1, 1
+                             and, 1                     and, 1
+                             the, 1
+            reduce(inputFile) - the, 1, 1      -> take summation. Save to file     the, 2   
+                                and, 1                                              and, 1
+                                
+Executive: main.cpp - map(sourcefile); map.export; Reducer(); reducer.sort(map); reducer.export(tempfile);
+
+gtest, spdlog for errors, or logger class.
+
+What is the workflow component???
+subwords, what defined a word? (just text separated by whitespace?)
+punctuation?

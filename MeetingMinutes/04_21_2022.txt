@@ -1,0 +1,80 @@
+shutong - no updates, able to run program from last meeting
+miora - issues with boost compiling. started file system class
+
+-------------
+
+// moira
+// reading funcs
+// reading input
+file io will read all files in input folder and return vector<string> with each index being a unique file's whole string
+// reading temp
+read(string path, int key){
+    open the file<key> file
+    for each line in the file{
+        push each line to a string vector
+    }
+    return the vector
+}
+
+// writing funcs
+write line(directory, int key (aka filenumber), contentsAsString, ){
+    create if doesn't exist. and append.
+    write(outputDir, file + key (file0, file1, file2...))
+    
+}
+
+
+--------
+// workflow
+// called in the workflow
+run(tempdir){
+    int counter = 0;
+    for the size of the vector aka for every file in the directory {
+        map(coutner (0, 1, 2.... increment as we loop), vector[index], temp dir)
+        // when map finishes, we will have a temp dir with stuff
+        // read the temp stuff
+        vector<string> read(path, counter)
+        sort(vector of intermediate data)
+        
+        if (reduce (the output of sort)){
+            make SUCCESS file
+        }
+        else { make FAILURE file }
+        
+        // redurce calls export so we're done here. keep looping through the input files
+        
+        
+        counter++
+        // the counter is the key
+    }
+}
+
+
+// shutong
+map(int key, vector, temp dir){
+    break into words
+    remove punctuation
+    vector<string> cleanworkds (no punctioation, no whitespace)
+    export(vector, tempdir, int key)
+}
+
+export(vector, tempdir, int key){
+    for each word in vector{
+        // we need to use moira's function here
+        write(tempdir, "word, 1 (contents as a string)", int key) 
+    }
+}
+
+----------------------
+//bool reduce
+string builder class for the weird syntax
+
+export(vector<string> input, key, path){
+    write(path, key, string contents)
+
+}
+
+sort()
+
+
+// unit test!!!!!

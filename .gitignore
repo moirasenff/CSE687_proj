@@ -1,2 +1,3 @@
-*.opendb
-*.ipch
+.vs/
+Phase 1/repo/.vs/
+Phase 1/repo/Debug/

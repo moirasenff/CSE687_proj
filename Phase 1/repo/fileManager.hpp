@@ -1,3 +1,7 @@
+//FileManager.hpp
+//definitions of FileManager class
+
+
 #include <string>
 #include <vector>
 
